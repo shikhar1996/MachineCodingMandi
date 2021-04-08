@@ -26,12 +26,12 @@ Access APIs
 1. Given state, district and crop, for all mandis in given district, for all crop varieties, show latest price & date (Sorted by latest date)
 ```
 from views.api import get_latest_price
-get_latest_price()
+get_latest_price(data)
 ```
 
 2. Given state, district, mandi, crop, crop variety, show price trend of x points in last y days
 E.g Last 7 latest prices in last 15 days
 ```
 from views.api import get_price_trend
-get_price_trend()
+get_price_trend(data)
 ```

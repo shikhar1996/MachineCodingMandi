@@ -21,6 +21,8 @@ Update data pass list of strings in the following format
 from controllers.data_util import update_data
 update_date(data)
 ```
+Access APIs
+
 1. Given state, district and crop, for all mandis in given district, for all crop varieties, show latest price & date (Sorted by latest date)
 ```
 from views.api import get_latest_price
